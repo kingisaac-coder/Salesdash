@@ -1,0 +1,52 @@
+.newProduct {
+  flex: 2;
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  border-bottom: none;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label {
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+
+.productFormLeft > input {
+  margin-bottom: 0.4rem;
+  border: none;
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft > select {
+  margin-bottom: 0.5rem;
+}
+
+.productUploadImg {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.productButton {
+  border: none;
+  width: 6rem;
+  margin: 2rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkblue;
+}

@@ -1,0 +1,132 @@
+.product {
+  flex: 4;
+  padding: 1.5rem;
+}
+
+.productTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productAddButton {
+  width: 6rem;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  background-color: teal;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.productTop {
+  display: flex;
+}
+
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+
+.productTopRight {
+  padding: 1.4rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  border-radius: 0.3rem;
+}
+
+.productInfoImg {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+
+.productName {
+  font-weight: 400;
+}
+.productInfoBottom {
+  margin-top: 2rem;
+}
+
+.productInfoItem {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productInfoValue {
+  font-weight: 300;
+}
+
+.productBottom {
+  padding: 1.4rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 5px 5px 37px 0px rgba(0, 0, 0, 0.48);
+  border-radius: 0.3rem;
+}
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft > label {
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+
+.productFormLeft > input {
+  margin-bottom: 0.4rem;
+  border: none;
+  padding: 1rem;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft > select {
+  margin-bottom: 0.5rem;
+}
+
+.productUploadImg {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+
+.productButton {
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkblue;
+}
